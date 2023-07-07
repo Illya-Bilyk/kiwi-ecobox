@@ -1,0 +1,68 @@
+.textMain {
+  color: #212121;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.075rem;
+}
+
+.mainTitleText {
+  color: #212121;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.mainTitleText2 {
+  color: #000;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.mainSecondText {
+  color: #fff;
+  text-align: center;
+  font-family: Galada;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  padding-right: 0.5rem;
+}
+
+.infoText {
+  color: #696969;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.turquoiseText {
+  color: #01a3a4;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+}

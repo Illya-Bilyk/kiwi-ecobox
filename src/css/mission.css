@@ -1,0 +1,11 @@
+.mission {
+  width: 20rem;
+  padding: 3.375rem 1rem 1.875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.missionPreTitle {
+  margin: 0.625rem 0 1.25rem 0;
+}

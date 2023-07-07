@@ -1,0 +1,74 @@
+.main {
+  height: 28rem;
+  width: 20rem;
+  background: linear-gradient(159deg, #feca57 0%, #e3aa2d 100%);
+}
+
+.container {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainTextContainer {
+  padding-top: 1.25rem;
+  padding-bottom: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.secondaryText {
+  display: flex;
+}
+
+.firstImages {
+  position: relative;
+  margin: 0 1rem;
+  display: flex;
+}
+.imageItem {
+  padding-right: 0.5rem;
+}
+.ellipseTr {
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.itemImage {
+  position: absolute;
+  top: 0;
+}
+
+.lines {
+  display: flex;
+}
+
+.mainImages {
+  /* height: 7rem; */
+  /* width: 20rem; */
+}
+.ellipse {
+  position: absolute;
+  padding-left: 3.25rem;
+  padding-top: 4rem;
+  z-index: 3;
+}
+.ellipseBold {
+  z-index: 1;
+  position: absolute;
+  padding-left: 10.5rem;
+  padding-top: 4rem;
+}
+
+.boxImage {
+  z-index: 2;
+  position: relative;
+  width: 17.125rem;
+  height: 12.563rem;
+  margin: 0 auto;
+  /* margin-bottom: 1.25rem; */
+}

@@ -1,0 +1,67 @@
+.description {
+  width: 20rem;
+}
+
+.descTitle {
+  margin-top: 3.125rem;
+  margin-bottom: 1.813rem;
+}
+
+.descImage {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.875rem;
+}
+
+.descTitleText {
+  color: #000;
+  text-align: center;
+  font-family: Advent Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.descSecondTitle {
+  color: #000;
+  text-align: center;
+  font-family: Advent Pro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  margin: 0;
+  padding-right: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+
+.textWrapper {
+  width: 18rem;
+  height: 3.938rem;
+}
+
+.descLines {
+  display: flex;
+  margin: 0 1rem;
+  margin: 1.875rem 0;
+}
+
+.descLine {
+  width: 5.625rem;
+  height: 0.063rem;
+  border-radius: 0.063rem;
+  background: linear-gradient(141deg, #74e6cf 0%, #c0e594 100%);
+}
+
+.curvedLine {
+  padding: 0 1.875rem;
+}
+
+.btnDescWrap {
+  display: flex;
+  justify-content: center;
+  margin: 1.875rem 0;
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #212121;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,30 @@
+.header {
+  height: 3.75rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 275px; */
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.item:not(:last-child) {
+  padding-right: 6.25rem;
+}
+
+.logo {
+  margin: 0.313rem 1rem;
+}
+
+.menuBtn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}

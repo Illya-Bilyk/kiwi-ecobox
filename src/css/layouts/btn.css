@@ -1,0 +1,20 @@
+.btn {
+  width: 18rem;
+  height: 3.75rem;
+  border-radius: 3.125rem;
+  border-color: transparent;
+  background: #01a3a4;
+  cursor: pointer;
+}
+
+.btnText {
+  color: #fff;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
