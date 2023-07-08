@@ -6,6 +6,17 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.075rem;
+  margin: 0 auto;
+}
+.textMainSecond {
+  color: #000;
+  text-align: center;
+  font-family: Advent Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
 }
 
 .mainTitleText {

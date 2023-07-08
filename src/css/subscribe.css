@@ -1,0 +1,39 @@
+.sub {
+  width: 20rem;
+  background-color: #f0f8f6;
+  padding: 3.125rem 1rem 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subPreTitle {
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.subBlueText {
+  color: #01a3a4;
+}
+
+.subFormInput {
+  width: 18rem;
+  height: 3.75rem;
+  padding: 1.25rem 0 1.25rem 1rem;
+  border: 1px #01a3a4;
+  margin-bottom: 1.25rem;
+}
+
+.policyText {
+  color: #c4c4c4;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.policyLink {
+  color: #c4c4c4;
+  cursor: pointer;
+}

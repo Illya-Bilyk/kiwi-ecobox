@@ -1,0 +1,42 @@
+.news {
+  width: 20rem;
+  padding: 3.125rem 1rem 1.875rem 1rem;
+}
+.newsTitle {
+  margin-bottom: 1.563rem;
+}
+.newsCard {
+  width: 18rem;
+  height: 24.125rem;
+  border: 1px solid #f0f8f6;
+}
+.newCardInfo {
+  padding: 1.563rem 1.563rem 1.875rem 1.563rem;
+}
+
+.newsCardTitleText {
+  color: #000;
+  font-family: Advent Pro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.056rem;
+}
+
+.newCardInfoText {
+  text-align: start;
+}
+
+.newsCardBtn {
+  width: 7rem;
+  height: 1.875rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-left: 8.5rem;
+}
+
+.bottomLine {
+  margin: 1.563rem 3.313rem 0 3.313rem;
+}
