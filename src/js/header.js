@@ -1,4 +1,4 @@
-const mainRef = document.querySelector('.index');
+const mainRef = document.querySelector('#index');
 
 const header = ` <header class="header">
       <ul class="list">

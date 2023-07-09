@@ -1,0 +1,114 @@
+.mobContainer {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.mob-menu-open {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+.mob-menu-open:hover,
+.mob-menu-open:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+  /* padding: 48px 40px; */
+}
+
+.mob-menu .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.mob-menu-close {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  margin: 1.5rem 0 0 10rem;
+  /* top: 22px;
+  right: 15px; */
+}
+.mob-menu-close:hover .mob-close-icon,
+.mob-menu-close:focus .mob-close-icon {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menuTop {
+  display: flex;
+}
+
+.mob-menu-close:hover .mob-close-icon,
+.mob-menu-close:focus .mob-close-icon {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mob-menuBottom {
+  position: relative;
+  background-color: #f0f8f6;
+  height: 31rem;
+}
+
+.mob-menu--list {
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.375rem 0 3.375rem 0;
+}
+.mob-menu--item {
+  margin-bottom: 1.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mob-menu--line {
+  margin-top: 1.563rem;
+}
+.mob-menu--link {
+  text-decoration: none;
+  color: #212121;
+  font-family: Bebas Neue;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06rem;
+}
+
+.mob-menu--button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mob-menuEllipse1 {
+  position: absolute;
+  margin: -9.5rem 0 0 14.875rem;
+}
+
+.mob-menuEllipse2 {
+  position: absolute;
+  margin: -8rem 0 0 14.875rem;
+}
