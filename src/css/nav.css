@@ -1,0 +1,49 @@
+.nav {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navLogo {
+  width: 8.375rem;
+  height: 4.375rem;
+
+  margin-bottom: 0.625rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.875rem 0 1.875rem 0;
+  padding-left: 0;
+}
+
+.navItem {
+  margin-top: 1.25rem;
+}
+
+.navItemLink {
+  color: #212121;
+  font-family: Bebas Neue;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+}
+
+.navSocialList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+}
+.navSocialItem:not(:last-child) {
+  margin-right: 1.25rem;
+}

@@ -1,6 +1,7 @@
 @import url('./layouts/btn.css');
 @import url('./layouts/common.css');
 @import url('./layouts/textStyles.css');
+@import url('./layouts/straightLine.css');
 
 @import url('./header.css');
 @import url('./main.css');
@@ -11,3 +12,5 @@
 @import url('./news.css');
 @import url('./subscribe.css');
 @import url('./reviews.css');
+@import url('./nav.css');
+@import url('./footer.css');

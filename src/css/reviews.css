@@ -1,4 +1,129 @@
 .reviews {
   width: 20rem;
   padding: 3.125rem 1rem 2.125rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.revTitle {
+  margin-top: 0.625rem;
+}
+
+.revCard {
+  margin-top: 0.563rem;
+}
+
+.revCardWrap {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.revCardImages {
+  position: relative;
+  margin-right: 3.063rem;
+}
+
+.revCardImagesPhoto {
+  position: absolute;
+  width: 3.875rem;
+  height: 4.313rem;
+  margin: -1.4rem 0 0 1.8rem;
+}
+
+.revCardPhoto {
+  border-radius: 50%;
+}
+
+.revCardInfoNameText {
+  color: #000;
+  text-align: center;
+  font-family: Advent Pro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.056rem;
+  margin: 0 auto;
+}
+
+.revCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.563rem;
+}
+
+.revCardInfoRate {
+  display: flex;
+  align-items: center;
+}
+
+.revCardInfoRateText {
+  color: #e5e5e5;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  padding-left: 0.313rem;
+}
+
+.revText {
+  width: 18rem;
+  height: 13.125rem;
+  overflow-y: scroll;
+  color: aqua;
+  transition: 0.5s;
+}
+::-webkit-scrollbar {
+  width: 0.313rem;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset -1px 0 #74e6cf;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgba(116, 230, 207, 1) 35%,
+    rgba(192, 229, 148, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.revTextScroll {
+  text-align: start;
+}
+
+/* .overlay {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+} */
+
+.revCardArrows {
+  display: flex;
+  margin-top: 0.19rem;
+}
+
+.revCardArrowL {
+  cursor: pointer;
+  margin-right: 0.9rem;
+  border: none;
+  background-color: transparent;
+}
+.revCardArrowR {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
