@@ -1,0 +1,23 @@
+.swiper-button-next {
+  color: transparent;
+  padding: 0;
+  position: relative;
+}
+
+.swiper {
+  margin: 0 auto;
+}
+.swiper-pagination {
+  position: relative;
+  margin: 1.563rem 0.313rem !important;
+}
+
+.sample-slider .swiper-pagination-bullet {
+  position: relative;
+  background: url(../images/news/bottomLine.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: initial;
+  width: 5rem;
+  height: 0.13rem;
+}

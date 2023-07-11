@@ -1,6 +1,6 @@
 .news {
   width: 20rem;
-  padding: 3.125rem 1rem 1.875rem 1rem;
+  padding: 3.125rem 1rem 0 1rem;
 }
 .newsTitle {
   margin-bottom: 1.563rem;
@@ -34,9 +34,6 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  margin-left: 8.5rem;
-}
-
-.news-bottomLine {
-  margin: 1.563rem 3.313rem 0 3.313rem;
+  margin-left: 9rem;
+  top: 0.75rem;
 }
