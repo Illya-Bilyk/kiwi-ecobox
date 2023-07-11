@@ -78,11 +78,7 @@
 }
 
 /* ----------- Main Images -------------- */
-.mainImages {
-  /* position: relative; */
-  /* height: 7rem; */
-  /* width: 20rem; */
-}
+
 .ellipse {
   position: absolute;
   padding-left: 3.75rem;
