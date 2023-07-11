@@ -1,2 +1,0 @@
-(()=>{const e={openMenuBtn:document.querySelector(".mob-menu-open"),closeMenuBtn:document.querySelector(".mob-menu-close"),menu:document.querySelector(".mob-menu"),links:document.querySelector(".mob-menu--button")};function n(){e.menu.classList.toggle("is-hidden")}e.openMenuBtn.addEventListener("click",n),e.closeMenuBtn.addEventListener("click",n),e.links.addEventListener("click",n)})();
-//# sourceMappingURL=index.77d7dada.js.map
