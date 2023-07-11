@@ -7,7 +7,7 @@
 }
 .newsCard {
   width: 18rem;
-  height: 24.125rem;
+  height: 25rem;
   border: 1px solid #f0f8f6;
 }
 .newsCard-info {
@@ -28,12 +28,15 @@
   text-align: start;
 }
 
-.newsCard-btn {
+.newsCard-btn--style {
   width: 7rem;
   height: 1.875rem;
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+
+.newsCard-btn {
   margin-left: 9rem;
-  top: 0.75rem;
+  margin-top: 2rem;
 }

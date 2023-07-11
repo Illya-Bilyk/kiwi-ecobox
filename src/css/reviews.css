@@ -125,3 +125,8 @@
   border: none;
   background-color: transparent;
 }
+
+.next {
+  position: relative;
+  margin-left: 10rem;
+}

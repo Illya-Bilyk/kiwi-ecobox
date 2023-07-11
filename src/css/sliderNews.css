@@ -1,10 +1,15 @@
-.swiper-button-next {
+/* .swiper-button-next {
   color: transparent;
   padding: 0;
   position: relative;
 }
 
-.swiper {
+.swiper-button-prev {
+  color: transparent;
+  padding: 0;
+  position: relative;
+} */
+.sliderNews {
   margin: 0 auto;
 }
 .swiper-pagination {
