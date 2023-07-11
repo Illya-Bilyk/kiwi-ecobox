@@ -2,18 +2,12 @@
   width: 20rem;
 }
 
-.descTitle {
+.desc-title {
   margin-top: 3.125rem;
   margin-bottom: 1.813rem;
 }
 
-.descImage {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1.875rem;
-}
-
-.descTitleText {
+.desc-title--text {
   color: #000;
   text-align: center;
   font-family: Advent Pro;
@@ -24,7 +18,13 @@
   margin: 0 auto;
 }
 
-.descSecondTitle {
+.desc-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.875rem;
+}
+
+.desc-secondTitle {
   color: #000;
   text-align: center;
   font-family: Advent Pro;
@@ -38,29 +38,29 @@
   padding-bottom: 0.5rem;
 }
 
-.textWrapper {
+.desc-textWrapper {
   width: 18rem;
   height: 3.938rem;
 }
 
-.descLines {
+.desc-linesList {
   display: flex;
   margin: 0 1rem;
   margin: 1.875rem 0;
 }
 
-.descLine {
+.desc-line {
   width: 5.625rem;
   height: 0.063rem;
   border-radius: 0.063rem;
   background: linear-gradient(141deg, #74e6cf 0%, #c0e594 100%);
 }
 
-.curvedLine {
+.desc-curvedLine {
   padding: 0 1.875rem;
 }
 
-.btnDescWrap {
+.desc-btnWrap {
   display: flex;
   justify-content: center;
   margin: 1.875rem 0;

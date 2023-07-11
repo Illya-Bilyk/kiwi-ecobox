@@ -7,12 +7,14 @@
   align-items: center;
 }
 
-.postImages {
+.postImages-list {
+  list-style: none;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.postItem {
+.postImages-item {
   padding: 0 0.5rem 0.5rem 0;
 }
 

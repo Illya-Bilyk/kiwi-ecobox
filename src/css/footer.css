@@ -1,4 +1,4 @@
-.footerList {
+.footer-list {
   list-style: none;
   display: flex;
   align-items: center;
@@ -6,12 +6,12 @@
   margin: 0 1rem 0 1rem;
 }
 
-.footerItem:nth-child(2) {
+.footer-item:nth-child(2) {
   margin-left: 0.625rem;
   margin-right: 0.313rem;
 }
 
-.footerText {
+.footer-item--text {
   color: #696969;
   text-align: right;
   font-family: Roboto;

@@ -6,16 +6,16 @@
   flex-direction: column;
   align-items: center;
 }
-.subPreTitle {
+.sub-PreTitle {
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
 }
 
-.subBlueText {
+.sub--blueText {
   color: #01a3a4;
 }
 
-.subFormInput {
+.sub-form--input {
   width: 18rem;
   height: 3.75rem;
   padding: 1.25rem 0 1.25rem 1rem;
@@ -23,7 +23,7 @@
   margin-bottom: 1.25rem;
 }
 
-.policyText {
+.sub-policy--text {
   color: #c4c4c4;
   text-align: center;
   font-family: Roboto;
@@ -33,7 +33,7 @@
   line-height: 1.5;
 }
 
-.policyLink {
+.sub-policy--link {
   color: #c4c4c4;
   cursor: pointer;
 }

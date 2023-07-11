@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 }
-.revTitle {
+.rev-title {
   margin-top: 0.625rem;
 }
 
@@ -13,28 +13,34 @@
   margin-top: 0.563rem;
 }
 
-.revCardWrap {
+.revCard-wrap {
   display: flex;
   margin-right: 2rem;
 }
 
-.revCardImages {
+.revCard-images {
   position: relative;
   margin-right: 3.063rem;
 }
 
-.revCardImagesPhoto {
+.revCard-images--photo {
   position: absolute;
   width: 3.875rem;
   height: 4.313rem;
   margin: -1.4rem 0 0 1.8rem;
 }
 
-.revCardPhoto {
+.photo {
   border-radius: 50%;
 }
 
-.revCardInfoNameText {
+.revCard-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.563rem;
+}
+.revCard-info--nameText {
   color: #000;
   text-align: center;
   font-family: Advent Pro;
@@ -46,20 +52,12 @@
   letter-spacing: 0.056rem;
   margin: 0 auto;
 }
-
-.revCardInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 1.563rem;
-}
-
-.revCardInfoRate {
+.revCard-infoRate {
   display: flex;
   align-items: center;
 }
 
-.revCardInfoRateText {
+.revCard-infoRate--text {
   color: #e5e5e5;
   font-family: Roboto;
   font-size: 0.875rem;
@@ -69,7 +67,7 @@
   padding-left: 0.313rem;
 }
 
-.revText {
+.rev-text {
   width: 18rem;
   height: 13.125rem;
   overflow-y: scroll;
@@ -94,7 +92,7 @@
   border-radius: 10px;
 }
 
-.revTextScroll {
+.rev-text--scroll {
   text-align: start;
 }
 
@@ -111,18 +109,18 @@
   );
 } */
 
-.revCardArrows {
+.revCard-arrows {
   display: flex;
   margin-top: 0.19rem;
 }
 
-.revCardArrowL {
+.revCard-arrows--left {
   cursor: pointer;
   margin-right: 0.9rem;
   border: none;
   background-color: transparent;
 }
-.revCardArrowR {
+.revCard-arrows--right {
   cursor: pointer;
   border: none;
   background-color: transparent;

@@ -10,11 +10,11 @@
   height: 24.125rem;
   border: 1px solid #f0f8f6;
 }
-.newCardInfo {
+.newsCard-info {
   padding: 1.563rem 1.563rem 1.875rem 1.563rem;
 }
 
-.newsCardTitleText {
+.newsCard-info--title {
   color: #000;
   font-family: Advent Pro;
   font-size: 1.125rem;
@@ -24,11 +24,11 @@
   letter-spacing: 0.056rem;
 }
 
-.newCardInfoText {
+.newsCard-info--text {
   text-align: start;
 }
 
-.newsCardBtn {
+.newsCard-btn {
   width: 7rem;
   height: 1.875rem;
   cursor: pointer;
@@ -37,6 +37,6 @@
   margin-left: 8.5rem;
 }
 
-.bottomLine {
+.news-bottomLine {
   margin: 1.563rem 3.313rem 0 3.313rem;
 }

@@ -12,7 +12,7 @@
   margin-bottom: 0.625rem;
 }
 
-.navList {
+.nav-list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -21,11 +21,11 @@
   padding-left: 0;
 }
 
-.navItem {
+.nav-item {
   margin-top: 1.25rem;
 }
 
-.navItemLink {
+.nav-item--link {
   color: #212121;
   font-family: Bebas Neue;
   font-size: 1rem;
@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-.navSocialList {
+.navSocial-list {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -44,6 +44,6 @@
   margin-bottom: 1.25rem;
   padding-left: 0;
 }
-.navSocialItem:not(:last-child) {
+.navSocial-item:not(:last-child) {
   margin-right: 1.25rem;
 }

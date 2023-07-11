@@ -1,10 +1,10 @@
 const mainRef = document.querySelector('#index');
 
 const header = ` <header class="header">
-      <ul class="list">
-        <li class="item"><a class="textMain">HOME</a></li>
-        <li class="item"><a class="textMain">BOXES</a></li>
-        <li class="item">
+      <ul class="header-list">
+        <li class="header-item"><a class="header-item--textMain">HOME</a></li>
+        <li class="header-item"><a class="header-item--textMain">BOXES</a></li>
+        <li class="header-item">
             <img
               src="./images/logo.svg"
               alt="logo"
@@ -12,8 +12,8 @@ const header = ` <header class="header">
               height="100px"
           />
         </li>
-        <li class="item"><a class="textMain">ABOUT</a></li>
-        <li class="item"><a class="textMain">ACCOUNT</a></li>
+        <li class="header-item"><a class="header-item--textMain">ABOUT</a></li>
+        <li class="header-item"><a class="header-item--textMain">ACCOUNT</a></li>
       </ul>
     </header>
 `;
