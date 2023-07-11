@@ -1,15 +1,63 @@
 * {
   box-sizing: border-box;
 }
-
+/* 
 body {
   background-color: #fff;
   color: #212121;
-  line-height: 1.5;
+  line-padding: 1.5;
   margin: 0 auto;
-}
+} */
 
 img {
   display: block;
   max-width: 100%;
 }
+
+/* @media only screen and (max-width: 600px) {
+  html {
+    padding: 37.5%;
+    margin: 37.5%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    padding: 50%;
+    margin: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    padding: 56.25%;
+    margin: 56.25%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    padding: 75%;
+    margin: 75%;
+  }
+} */
+
+/* @media only screen and (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 37.5%;
+  }
+} */
