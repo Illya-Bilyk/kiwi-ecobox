@@ -8,20 +8,20 @@ const refs = {
 const markup = images
   .map(({ src, alt }) => {
     return `
-   <div class="firstImages-item">
-      <div class="ellipseTr">  
-         <img
+   <li class="firstImages-item">
+      <div class="firstImages-item--ellipseTr">
+             <img
             src=${ellipseTransparent}
-            alt="ellipse Transparent"   
+            alt="ellipse Transparent"
           />
       </div>
       <div class="firstImages-item--image">
           <img
             src=${src}
-            alt=${alt}        
+            alt=${alt}            
           />
       </div>
-   </div>`;
+  </li>`;
   })
   .join('');
 
