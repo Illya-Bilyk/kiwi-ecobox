@@ -24,12 +24,12 @@
   display: flex;
 }
 
-.firstImages {
+.firstImages-list {
   position: relative;
   margin: 0 1rem;
   display: flex;
 }
-.imageItem {
+.firstImages-item {
   padding-right: 0.5rem;
 }
 .ellipseTr {
@@ -37,8 +37,7 @@
   left: 0;
   position: relative;
 }
-
-.itemImage {
+.firstImages-item--image {
   position: absolute;
   top: 0;
 }
