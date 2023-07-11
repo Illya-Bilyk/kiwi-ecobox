@@ -24,6 +24,8 @@
   display: flex;
 }
 
+/* ------------ First Images ------------- */
+
 .firstImages-list {
   list-style: none;
   padding: 0;
@@ -36,34 +38,62 @@
 }
 .firstImages-item--ellipseTr {
   top: 0;
-  left: 0;
+  left: 0.3rem;
   position: relative;
 }
 
 .firstImages-item--image {
   position: absolute;
-  top: 0;
+  bottom: 0;
 }
+/* ----------- Lines -------------- */
 
-.lines {
+.lines-list {
+  list-style: none;
+  padding: 0;
   display: flex;
+  position: relative;
+  margin-left: 1rem;
 }
 
+.lines-item--first {
+  position: absolute;
+  top: -1.4rem;
+  left: 0.7rem;
+}
+.lines-item--second {
+  position: absolute;
+  top: -1.6rem;
+  left: 8.2rem;
+}
+.lines-item--third {
+  position: absolute;
+  top: -2.3rem;
+  left: 12.5rem;
+}
+.lines-item--fourth {
+  position: absolute;
+  top: -2rem;
+  left: 15.3rem;
+}
+
+/* ----------- Main Images -------------- */
 .mainImages {
+  /* position: relative; */
   /* height: 7rem; */
   /* width: 20rem; */
 }
 .ellipse {
   position: absolute;
-  padding-left: 3.25rem;
-  padding-top: 4rem;
+  padding-left: 3.75rem;
+  padding-bottom: 8.5rem;
   z-index: 3;
 }
 .ellipseBold {
   z-index: 1;
   position: absolute;
-  padding-left: 10.5rem;
-  padding-top: 4rem;
+  padding-left: 10.8rem;
+  padding-bottom: 8.5rem;
 }
 
 .boxImage {
@@ -72,5 +102,12 @@
   width: 17.125rem;
   height: 12.563rem;
   margin: 0 auto;
+  bottom: 4.5rem;
+  left: 0.5rem;
   /* margin-bottom: 1.25rem; */
+}
+
+.mainBtn {
+  margin-top: 22.5rem;
+  position: absolute;
 }
