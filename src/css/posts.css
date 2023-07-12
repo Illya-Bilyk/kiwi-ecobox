@@ -1,6 +1,7 @@
-.posts {
-  width: 20rem;
+#posts {
   background-color: #f0f8f6;
+}
+.posts {
   padding: 3.125rem 1rem 0.9rem 1rem;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,5 @@
 .reviews {
-  width: 20rem;
-  padding: 3.125rem 1rem 2.125rem 1rem;
+  padding: 3.125rem 0 2.125rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +9,8 @@
 }
 
 .revCard {
-  width: 18rem;
+  width: clamp(18rem, 75vw, 36rem);
+
   margin-top: 0.563rem;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .rev-text {
-  width: 18rem;
+  width: clamp(18rem, 75vw, 36rem);
   height: 13.125rem;
   overflow-y: scroll;
   color: aqua;

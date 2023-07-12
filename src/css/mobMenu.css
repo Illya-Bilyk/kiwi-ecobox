@@ -4,7 +4,11 @@
   margin: 0 auto;
   overflow: hidden;
 }
-
+@media only screen and (min-width: 768px) {
+  .mobContainer {
+    width: clamp(48rem, 90vw, 62rem);
+  }
+}
 .mob-menu-open {
   margin-left: auto;
   border: none;

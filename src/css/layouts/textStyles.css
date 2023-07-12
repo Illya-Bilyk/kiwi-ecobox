@@ -78,3 +78,37 @@
   text-transform: uppercase;
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 768px) {
+  .textMain {
+    font-size: 1.5rem;
+
+    letter-spacing: 0.075rem;
+  }
+  .textMainSecond {
+    font-size: 1.5rem;
+  }
+
+  .mainTitleText {
+    font-size: 2rem;
+
+    letter-spacing: 0.1rem;
+  }
+
+  .mainTitleText2 {
+    font-size: 2rem;
+  }
+
+  .mainSecondText {
+    font-size: 1.625rem;
+  }
+
+  .infoText {
+    font-size: 0.875rem;
+  }
+
+  .turquoiseText {
+    font-size: 0.75rem;
+    letter-spacing: 0.075rem;
+  }
+}

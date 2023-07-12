@@ -8,6 +8,7 @@ const refs = {
 const markup = info
   .map(({ src, alt, title, text }) => {
     return `
+    <div class="desc-Card">
     <div class="desc-image">
       <img src=${src} alt=${alt}/>
     </div>
@@ -23,6 +24,7 @@ const markup = info
         <img src=${line} alt="line" />
       </div>
       <div class="desc-line"></div>
+      </div>
   </div>`;
   })
   .join('');

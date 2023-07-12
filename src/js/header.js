@@ -1,21 +1,24 @@
-const mainRef = document.querySelector('#index');
+import logo from '../images/header/logo.svg';
 
-const header = ` <header class="header">
+const mainRef = document.querySelector('#header');
+
+const header = ` 
       <ul class="header-list">
-        <li class="header-item"><a class="header-item--textMain">HOME</a></li>
-        <li class="header-item"><a class="header-item--textMain">BOXES</a></li>
+        <li class="header-item"><a href="#main" class="mob-menu--link">HOME</a></li>
+        <li class="header-item"><a href="#news" class="mob-menu--link">BOXES</a></li>
         <li class="header-item">
+        <a href=''>
             <img
-              src="./images/logo.svg"
+              src="${logo}"
               alt="logo"
               width="191px"
               height="100px"
-          />
+          /></a>
         </li>
-        <li class="header-item"><a class="header-item--textMain">ABOUT</a></li>
-        <li class="header-item"><a class="header-item--textMain">ACCOUNT</a></li>
+        <li class="header-item"><a  href="#description" class="mob-menu--link">ABOUT</a></li>
+        <li class="header-item"><a  href="#subscribe" class="mob-menu--link">ACCOUNT</a></li>
       </ul>
-    </header>
+
 `;
 
-// mainRef.insertAdjacentHTML('beforeend', header);
+mainRef.insertAdjacentHTML('beforeend', header);

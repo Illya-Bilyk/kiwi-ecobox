@@ -1,19 +1,29 @@
-.monthly {
-  width: 20rem;
+#monthly {
   background-color: #f0f8f6;
-  padding: 3.125rem 1rem 1.625rem 1rem;
+}
+.monthly {
+  padding: 3.125rem 1.625rem 1.625rem 1.625rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.month-info--text {
+  width: clamp(16.75rem, 90%, 24rem);
+  /* height: 14.438rem; */
 }
 
 .monthImages {
   display: flex;
   position: relative;
+  /* margin: 0 1rem; */
 }
 
 .monthFirstImage {
-  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  min-width: 140px;
+}
+.monthSecondImage {
+  min-width: 140px;
 }
 
 .monthEllipse {
@@ -36,4 +46,21 @@
 
 .monthLine {
   margin-bottom: 1.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .monthEllipse {
+    margin: 10.5rem 0 0 12.5rem;
+  }
+  .monthTurEllipse {
+    margin: 12.5rem 0 0 14rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .monthEllipse {
+    display: none;
+  }
+  .monthTurEllipse {
+    /* margin: 12.5rem 0 0 14rem; */
+  }
 }

@@ -1,15 +1,16 @@
 .news {
-  width: 20rem;
-  padding: 3.125rem 1rem 0 1rem;
+  padding-top: 3.125rem;
 }
 .newsTitle {
   margin-bottom: 1.563rem;
 }
 .newsCard {
-  width: 18rem;
-  height: 25rem;
   border: 1px solid #f0f8f6;
 }
+.newsCard--image {
+  width: calc(100vw - 3rem);
+}
+
 .newsCard-info {
   padding: 1.563rem 1.563rem 1.875rem 1.563rem;
 }
@@ -37,6 +38,7 @@
 }
 
 .newsCard-btn {
-  margin-left: 9rem;
+  display: flex;
+  justify-content: flex-end;
   margin-top: 2rem;
 }

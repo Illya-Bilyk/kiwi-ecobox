@@ -1,6 +1,5 @@
 .header {
-  height: 3.75rem;
-  width: clamp(20rem, 90vw, 41.625rem);
+  min-height: 3.75rem;
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
@@ -11,17 +10,29 @@
   justify-content: space-between;
   align-items: center;
 }
-
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  /* .header {
+    height: 5rem;
+  } */
+}
 .header-list {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem 0;
   padding: 0;
 }
-
+@media only screen and (max-width: 1024px) {
+  .header-list {
+    display: none;
+  }
+}
 .header-item:not(:last-child) {
-  padding-right: 6.25rem;
+  padding-right: 5rem;
 }
 
 .logo {
