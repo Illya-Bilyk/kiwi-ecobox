@@ -1,5 +1,5 @@
 import { content } from './reviewContent.js';
-import quotes from '../../images/reviews/“.svg';
+import quotes from '../../images/reviews/quotes.svg';
 import curvedLine from '../../images/common/line.svg';
 
 const refs = {

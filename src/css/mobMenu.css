@@ -1,5 +1,6 @@
 .mobContainer {
-  width: 20rem;
+  width: clamp(20rem, 90vw, 41.625rem);
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -38,9 +39,7 @@
   background-color: transparent;
   border: none;
   position: absolute;
-  margin: 1.5rem 0 0 10rem;
-  /* top: 22px;
-  right: 15px; */
+  margin: 1.5rem 0 0 -4rem;
 }
 .mob-menu-close:hover .mob-close-icon,
 .mob-menu-close:focus .mob-close-icon {
@@ -50,6 +49,8 @@
 
 .mob-menuTop {
   display: flex;
+  justify-content: space-between;
+  /* width: clamp(20rem, 90vw, 41.625rem); */
 }
 
 .mob-menu-close:hover .mob-close-icon,
@@ -104,12 +105,22 @@
   background-color: transparent;
 }
 
+.mob-menu-Ellipses {
+  /* width: 417px;
+  height: 500px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  margin: -11rem 0 0 0;
+}
+
 .mob-menuEllipse1 {
-  position: absolute;
-  margin: -9.5rem 0 0 14.875rem;
+  /* position: absolute; */
+  /* margin: -9.5rem 0 0 14.875rem; */
 }
 
 .mob-menuEllipse2 {
-  position: absolute;
-  margin: -8rem 0 0 14.875rem;
+  /* position: absolute; */
+  /* margin: -8rem 0 0 14.875rem; */
 }
