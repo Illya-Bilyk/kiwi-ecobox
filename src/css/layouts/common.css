@@ -17,11 +17,11 @@ img {
 }
 
 section {
-  width: clamp(22rem, 90vw, 41.625rem);
+  width: clamp(22rem, 100vw, 41.625rem);
   padding: 0 1rem;
 }
 .header {
-  width: clamp(20rem, 90vw, 41.625rem);
+  width: clamp(20rem, 100vw, 41.625rem);
 }
 .container {
   display: flex;
@@ -31,10 +31,10 @@ section {
 
 @media only screen and (min-width: 768px) {
   section {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(48rem, 100vw, 62rem);
   }
   .header {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(48rem, 100vw, 62rem);
   }
   html {
     font-size: 114%;
@@ -43,10 +43,10 @@ section {
 
 @media only screen and (min-width: 1024px) {
   section {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(48rem, 100vw, 62rem);
   }
   .header {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(48rem, 100vw, 62rem);
   }
   html {
     font-size: 125%;
