@@ -9,13 +9,11 @@
 }
 .month-info--text {
   width: clamp(16.75rem, 90%, 24rem);
-  /* height: 14.438rem; */
 }
 
 .monthImages {
   display: flex;
   position: relative;
-  /* margin: 0 1rem; */
 }
 
 .monthFirstImage {
@@ -56,11 +54,72 @@
     margin: 12.5rem 0 0 14rem;
   }
 }
-@media only screen and (min-width: 1024px) {
-  .monthEllipse {
+
+/* ---------------------- */
+@media only screen and (max-width: 1024px) {
+  .monthDeskImages {
     display: none;
   }
-  .monthTurEllipse {
-    /* margin: 12.5rem 0 0 14rem; */
+  .month-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .monthLine {
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ---------------------- */
+
+@media only screen and (min-width: 1024px) {
+  .month-title {
+    display: flex;
+    align-items: center;
+  }
+  .monthLine {
+    padding-right: 1.25rem;
+  }
+  .month-info--text {
+    max-width: 32.5rem;
+  }
+  .month-info--textStyle {
+    text-align: start;
+  }
+  .monthly {
+    flex-direction: row;
+    padding: 5rem 5rem;
+  }
+  .monthImages {
+    display: none;
+  }
+  .monthDeskImages {
+    display: flex;
+    margin-right: 3.125rem;
+    position: relative;
+    z-index: 2;
+  }
+  .monthLine {
+    margin-bottom: 0;
+  }
+  .monthImges-bag {
+    position: absolute;
+  }
+}
+
+.monthImges-ledder {
+}
+
+.monthImges-jar {
+}
+
+.monthImges-lines--top {
+}
+
+.monthImges-lines--bottom {
+}
+
+.monthImges-monstera {
+  position: absolute;
 }

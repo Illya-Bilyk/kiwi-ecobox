@@ -111,3 +111,19 @@
   margin-top: 22.5rem;
   position: absolute;
 }
+
+@media only screen and (min-width: 768px) {
+  .firstImages-item:nth-child(3) .firstImages-item--image {
+    left: 8.5rem;
+  }
+
+  .lines-item--second {
+    left: 7.2rem;
+  }
+  .lines-item--third {
+    left: 11rem;
+  }
+  .lines-item--fourth {
+    left: 13.7rem;
+  }
+}

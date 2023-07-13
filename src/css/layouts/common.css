@@ -17,7 +17,7 @@ img {
 }
 
 section {
-  width: clamp(20rem, 90vw, 41.625rem);
+  width: clamp(22rem, 90vw, 41.625rem);
   padding: 0 1rem;
 }
 .header {
