@@ -32,36 +32,23 @@ section {
 }
 
 @media only screen and (min-width: 768px) {
-  section {
-    width: clamp(48rem, 100vw, 62rem);
-  }
-  .header {
+  section,
+  .header,
+  #footer {
     width: clamp(48rem, 100vw, 62rem);
   }
   html {
     font-size: 114%;
   }
-  #footer {
-    width: clamp(48rem, 100vw, 62rem);
-  }
 }
 
 @media only screen and (min-width: 1024px) {
-  section {
+  section,
+  .header,
+  #footer,
+  #main {
     width: clamp(64rem, 100vw, 118rem);
   }
-  .header {
-    width: clamp(64rem, 100vw, 118rem);
-  }
-  html {
-    font-size: 125%;
-  }
-  #footer {
-    width: clamp(64rem, 100vw, 118rem);
-  }
-}
-
-@media only screen and (min-width: 1024px) {
   html {
     font-size: 125%;
   }
