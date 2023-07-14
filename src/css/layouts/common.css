@@ -46,7 +46,7 @@ section {
   section,
   .header,
   #footer {
-    width: clamp(1024px, 100vw, 1920px);
+    width: clamp(1024px, 100vw, 1680px);
   }
   html {
     font-size: 125%;
@@ -73,8 +73,8 @@ section {
     font-size: 175%;
   }
 }
-@media only screen and (min-width: 1920px) {
+/* @media only screen and (min-width: 1920px) {
   html {
     font-size: 200%;
   }
-}
+} */

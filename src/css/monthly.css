@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 .month-info--text {
   width: clamp(16.75rem, 90%, 24rem);
@@ -57,10 +58,11 @@
 
 /* ---------------------- */
 @media only screen and (max-width: 1023px) {
-  .monthDeskImages {
+  .monthDeskImages,
+  .monthPreImages-monstera {
     display: none;
   }
-  .month-mobile {
+  .month-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +73,7 @@
     justify-content: center;
   }
 }
+
 /* ---------------------- */
 
 @media only screen and (min-width: 1024px) {
@@ -89,7 +92,7 @@
   }
   .monthly {
     flex-direction: row;
-    padding: 5rem 5rem;
+    padding: 4rem 4rem;
   }
   .monthImages {
     display: none;
@@ -106,20 +109,37 @@
   .monthImges-bag {
     position: absolute;
   }
+  .btnMonthWrap {
+    z-index: 100;
+    position: absolute;
+  }
+  .month-info {
+    margin-bottom: 3.75rem;
+  }
 }
 
-.monthImges-ledder {
+.monthPreImages {
+  /* position: relative; */
 }
-
-.monthImges-jar {
-}
-
-.monthImges-lines--top {
-}
-
-.monthImges-lines--bottom {
-}
-
-.monthImges-monstera {
+.monthPreImages-ledder {
   position: absolute;
+}
+
+.monthPreImages-jar {
+  position: absolute;
+}
+
+.monthPreImages-lines--top {
+  position: absolute;
+}
+
+.monthPreImages-lines--bottom {
+  position: absolute;
+}
+
+.monthPreImages-monstera {
+  z-index: 3;
+  position: absolute;
+  margin-left: 304px;
+  margin-top: 19rem;
 }
