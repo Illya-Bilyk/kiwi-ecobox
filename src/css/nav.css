@@ -46,3 +46,31 @@
 .navSocial-item:not(:last-child) {
   margin-right: 1.25rem;
 }
+
+@media only screen and (max-width: 1023px) {
+  .navLogo-desktop,
+  #description-item--desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navLogo,
+  #description-item,
+  #monthly-item {
+    display: none;
+  }
+  .nav,
+  .nav-list {
+    flex-direction: row;
+  }
+  .nav-item {
+    margin-right: 1.25rem;
+  }
+  .nav-item:nth-child(9) {
+    margin: 0 5rem;
+  }
+  .navSocial-list {
+    margin: 1rem 0 0 0;
+  }
+}

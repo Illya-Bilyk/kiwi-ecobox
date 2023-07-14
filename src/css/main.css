@@ -127,3 +127,9 @@
     left: 13.7rem;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .lines-list {
+    display: none;
+  }
+}

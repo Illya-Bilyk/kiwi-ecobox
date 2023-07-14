@@ -6,6 +6,7 @@ body {
   background-color: #fff;
   color: #212121;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 html {
   font-size: 100%;
@@ -19,6 +20,7 @@ img {
 section {
   width: clamp(22rem, 100vw, 41.625rem);
   padding: 0 1rem;
+  /* max-height: 80vh; */
 }
 .header {
   width: clamp(20rem, 100vw, 41.625rem);
@@ -39,16 +41,54 @@ section {
   html {
     font-size: 114%;
   }
+  #footer {
+    width: clamp(48rem, 100vw, 62rem);
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   section {
-    width: clamp(48rem, 100vw, 62rem);
+    width: clamp(64rem, 100vw, 118rem);
   }
   .header {
-    width: clamp(48rem, 100vw, 62rem);
+    width: clamp(64rem, 100vw, 118rem);
   }
   html {
     font-size: 125%;
+  }
+  #footer {
+    width: clamp(64rem, 100vw, 118rem);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  html {
+    font-size: 140%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  html {
+    font-size: 150%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 160%;
+  }
+}
+@media only screen and (min-width: 1680px) {
+  html {
+    font-size: 175%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 200%;
   }
 }

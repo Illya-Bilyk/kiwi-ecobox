@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .desc-title {
@@ -92,6 +93,9 @@
     margin-bottom: 4rem;
   }
   .desc-Card {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(10rem, 80vw, 17.625rem);
+  }
+  .desc-btnWrap {
+    margin-top: 0;
   }
 }

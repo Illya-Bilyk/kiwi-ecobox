@@ -8,7 +8,7 @@
   border: 1px solid #f0f8f6;
 }
 .newsCard--image {
-  width: calc(100vw - 3rem);
+  width: calc(100vw);
 }
 
 .newsCard-info {
@@ -41,8 +41,9 @@
   display: flex;
   justify-content: flex-end;
 
-  padding-top: 1rem;
-  margin-top: 2rem;
+  /* padding-top: 1rem; */
+  margin-top: 4rem;
+  margin-left: 6.5rem;
 }
 
 .desktopNews-list {
@@ -51,6 +52,7 @@
   margin: 0 auto;
   display: flex;
   margin-bottom: 5rem;
+  justify-content: center;
 }
 
 .newsLine {
@@ -65,12 +67,15 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .newsCard--image {
+    width: calc(100vw - 10rem);
+  }
   .swiper {
     display: none;
   }
   .newsCard {
     position: relative;
-    max-width: 24.188rem;
+    width: 387px;
     margin-right: 1.813rem;
   }
   .newsCard-info--title {
