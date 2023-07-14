@@ -18,12 +18,12 @@ img {
 }
 
 section {
-  width: clamp(22rem, 95vw, 41.625rem);
+  width: clamp(22rem, 100vw, 41.625rem);
   padding: 0 1rem;
   /* max-height: 80vh; */
 }
 .header {
-  width: clamp(20rem, 95vw, 41.625rem);
+  width: clamp(20rem, 100vw, 41.625rem);
 }
 .container {
   display: flex;
