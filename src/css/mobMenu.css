@@ -103,6 +103,9 @@
   letter-spacing: 0.06rem;
 }
 
+.mob-menu--button :hover {
+  color: #01a3a4;
+}
 .mob-menu--button {
   border: none;
   cursor: pointer;

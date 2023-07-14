@@ -1,5 +1,4 @@
 #footer {
-  width: clamp(20rem, 100vw, 41.625rem);
   padding: 0 1rem;
 }
 .footer-list {

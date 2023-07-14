@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   color: #212121;
   margin: 0 auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 html {
   font-size: 100%;
@@ -18,12 +18,12 @@ img {
 }
 
 section {
-  width: clamp(22rem, 100vw, 41.625rem);
+  width: clamp(22rem, 95vw, 41.625rem);
   padding: 0 1rem;
   /* max-height: 80vh; */
 }
 .header {
-  width: clamp(20rem, 100vw, 41.625rem);
+  width: clamp(20rem, 95vw, 41.625rem);
 }
 .container {
   display: flex;
@@ -35,7 +35,7 @@ section {
   section,
   .header,
   #footer {
-    width: clamp(48rem, 100vw, 62rem);
+    width: clamp(768px, 100vw, 1023px);
   }
   html {
     font-size: 114%;
@@ -45,9 +45,8 @@ section {
 @media only screen and (min-width: 1024px) {
   section,
   .header,
-  #footer,
-  #main {
-    width: clamp(64rem, 100vw, 118rem);
+  #footer {
+    width: clamp(1024px, 100vw, 1920px);
   }
   html {
     font-size: 125%;
