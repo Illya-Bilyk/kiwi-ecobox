@@ -9,8 +9,13 @@
   align-items: center;
 }
 .sub-PreTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-PreTitle--text {
   margin-top: 0.625rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .sub--blueText {
@@ -44,4 +49,87 @@
 .sub-policy--link {
   color: #c4c4c4;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1023px) {
+  .sub-imageDesk,
+  .sub-form--image {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sub-image {
+    display: none;
+  }
+  .sub {
+    align-items: flex-start;
+    margin-left: 5rem;
+    padding-bottom: 4rem;
+  }
+  .sub-imageDesk {
+    position: absolute;
+    margin: 4rem 0 0 22rem;
+    max-width: 25rem;
+  }
+  .sub-PreTitle {
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+  }
+  .sub-PreTitle--textStyle {
+    text-align: start;
+  }
+  .sub-PreTitle-line {
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+  }
+  .sub-PreTitleSecond--textStyle {
+    color: #000;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+  }
+  .sub-title {
+    max-width: 30rem;
+  }
+  .sub-title--text {
+    font-size: 2.5rem;
+    text-align: start;
+  }
+
+  .sub-form {
+    margin-top: 2rem;
+    align-items: flex-start;
+    max-width: 24rem;
+  }
+  .sub-form--input {
+    position: relative;
+    width: clamp(18rem, 75vw, 24rem);
+    height: 4rem;
+    padding-right: 11.5rem;
+    margin-bottom: 10px;
+  }
+  .sub-form--btn {
+    width: 11rem;
+    height: 3rem;
+
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 0.5rem;
+  }
+
+  .sub-policy--text {
+    margin: 0;
+    text-align: start;
+  }
+  .sub-form--image {
+    position: absolute;
+    width: 8rem;
+    transform: rotate(180deg);
+    margin: -3rem 0 0 -4rem;
+  }
 }

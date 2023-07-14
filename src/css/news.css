@@ -40,5 +40,49 @@
 .newsCard-btn {
   display: flex;
   justify-content: flex-end;
+
+  padding-top: 1rem;
   margin-top: 2rem;
+}
+
+.desktopNews-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.newsLine {
+  margin-top: 2.625rem;
+  margin-bottom: 1.875rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .desktopNews-list {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .swiper {
+    display: none;
+  }
+  .newsCard {
+    position: relative;
+    max-width: 24.188rem;
+    margin-right: 1.813rem;
+  }
+  .newsCard-info--title {
+    font-size: 1.25rem;
+  }
+
+  .newsCard-info--text {
+    font-size: 0.875rem;
+    max-height: 3rem;
+    line-height: 1.313rem;
+  }
+  .newsCard-info--title {
+    height: 2rem;
+  }
 }
