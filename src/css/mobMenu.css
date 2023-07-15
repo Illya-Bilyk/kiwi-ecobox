@@ -1,12 +1,12 @@
 .mobContainer {
-  width: clamp(20rem, 90vw, 41.625rem);
+  width: clamp(20rem, 100vw, 41.625rem);
   height: 100vh;
   margin: 0 auto;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
   .mobContainer {
-    width: clamp(48rem, 90vw, 62rem);
+    width: clamp(48rem, 100vw, 62rem);
   }
 }
 .mob-menu-open {

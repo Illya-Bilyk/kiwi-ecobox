@@ -194,7 +194,7 @@
   }
 
   .lines-listDesk {
-    position: relative;
+    display: block;
     list-style: none;
   }
   .lines-item--first {
@@ -270,13 +270,13 @@
     margin-left: 360px;
   }
   .lines-item--first {
-    width: 100%;
+    width: 500px;
     margin-left: -3.5rem;
     margin-top: -3rem;
   }
 
   .lines-item--third {
-    width: 100%;
+    width: 500px;
     margin-left: 30.5rem;
     margin-top: -3rem;
   }
@@ -298,18 +298,57 @@
   }
 }
 @media only screen and (min-width: 1680px) {
+  .mainImagesDesk-boxImage {
+    width: 600px;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 475px;
+  }
+
+  .firstImages-item--ellipseTr {
+    position: relative;
+    width: 250px;
+  }
+  .firstImages-item--ellipseTr img {
+    width: 200px;
+  }
+  .firstImages-item:nth-child(1) .firstImages-item--image img {
+    width: 300px;
+  }
+  .firstImages-item:nth-child(2) .firstImages-item--image img {
+    width: 500px;
+  }
+  .firstImages-item:nth-child(3) .firstImages-item--image img {
+    width: 500px;
+  }
+  .firstImages-item:nth-child(4) .firstImages-item--image img {
+    width: 300px;
+  }
+
   .lines-item--first {
-    margin-left: -2.5rem;
+    margin-left: 1.5rem;
     margin-top: -2.5rem;
   }
   .lines-item--second {
-    margin-left: 28rem;
-    margin-top: -2rem;
+    margin-left: 35rem;
+    margin-top: -1rem;
   }
 
   .lines-item--third {
-    margin-left: 24.5rem;
+    margin-left: 34.5rem;
+    margin-top: -1rem;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1920px) {
+  .lines-item--first {
+    margin-left: 2rem;
+    margin-top: -2.5rem;
+  }
+  .lines-item--second {
+    margin-left: 32rem;
+  }
+
+  .lines-item--third {
+    margin-left: 30.5rem;
+  }
 }
