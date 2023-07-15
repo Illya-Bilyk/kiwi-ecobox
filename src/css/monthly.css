@@ -17,12 +17,19 @@
   position: relative;
 }
 
+.monthDeskImages {
+  margin-left: 2rem;
+  position: relative;
+}
 .monthFirstImage {
   margin-right: 0.5rem;
-  min-width: 140px;
+  /* position: absolute; */
+  z-index: 200;
 }
 .monthSecondImage {
-  min-width: 140px;
+  z-index: 200;
+  margin-right: 3.125rem;
+  /* position: absolute; */
 }
 
 .monthEllipse {
@@ -50,9 +57,11 @@
 @media only screen and (min-width: 768px) {
   .monthEllipse {
     margin: 10.5rem 0 0 12.5rem;
+    z-index: 900;
   }
   .monthTurEllipse {
     margin: 12.5rem 0 0 14rem;
+    z-index: 900;
   }
 }
 
@@ -77,6 +86,11 @@
 /* ---------------------- */
 
 @media only screen and (min-width: 1024px) {
+  /* .monthImagesDesk {
+    display: flex;
+    position: relative;
+  } */
+
   .month-title {
     display: flex;
     align-items: center;
@@ -99,9 +113,9 @@
   }
   .monthDeskImages {
     display: flex;
-    margin-right: 3.125rem;
     position: relative;
     z-index: 2;
+    width: 800px;
   }
   .monthLine {
     margin-bottom: 0;
@@ -109,25 +123,169 @@
   .monthImges-bag {
     position: absolute;
   }
+  .monthDesk-btn {
+    position: relative;
+    width: 20rem;
+  }
   .btnMonthWrap {
-    z-index: 100;
     position: absolute;
+    z-index: 100;
+  }
+  .monthPreImages-monstera {
+    z-index: 3;
+    position: absolute;
+    margin-left: 8.5rem;
+    margin-top: -1.5rem;
   }
   .month-info {
     margin-bottom: 3.75rem;
   }
+
+  .monthPreImages-jar img,
+  .monthPreImages-ledder img,
+  .monthPreImages-lines--top img,
+  .monthPreImages-lines--bottom img {
+    width: 80px;
+  }
+  .monthPreImages-jar {
+    transform: rotate(248deg);
+    position: absolute;
+    margin-top: 9.5rem;
+    margin-left: -6rem;
+  }
+  .monthPreImages-ledder {
+    transform: rotate(340deg);
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -6rem;
+  }
+
+  .monthPreImages-bag {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: -5.5rem;
+    z-index: 300;
+  }
+  .monthPreImages-lines--top {
+    margin-top: 8rem;
+    margin-left: -2.5rem;
+  }
+  .monthPreImages-lines--bottom {
+    margin-left: -3.5rem;
+    margin-top: 1rem;
+  }
+  .monthPreImages-litleEllipse {
+    z-index: 1;
+    position: absolute;
+    margin-top: -1.2rem;
+    margin-left: -0.2rem;
+  }
 }
 
-.monthPreImages {
-  /* position: relative; */
+@media only screen and (min-width: 1280px) {
+  .monthPreImages-monstera {
+    margin-left: 7.5rem;
+  }
+  .monthPreImages-jar img,
+  .monthPreImages-ledder img,
+  .monthPreImages-lines--top img,
+  .monthPreImages-lines--bottom img {
+    width: 125px;
+  }
+
+  .monthPreImages-bag img {
+    width: 300px;
+  }
+  .monthPreImages-jar {
+    margin-top: 9.5rem;
+    margin-left: -7rem;
+  }
+  .monthPreImages-ledder {
+    margin-top: 4.5rem;
+    margin-left: -7rem;
+  }
+
+  .monthPreImages-bag {
+    margin-top: 0.5rem;
+    margin-left: -5.5rem;
+  }
+  .monthPreImages-litleEllipse {
+    margin-left: 0.8rem;
+  }
 }
-.monthPreImages-ledder {
-  position: absolute;
+@media only screen and (min-width: 1366px) {
+  .monthPreImages-monstera {
+    margin-left: 6.5rem;
+  }
+  .monthPreImages-bag {
+    margin-left: -5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .monthPreImages-monstera {
+    margin-left: 6rem;
+    margin-top: -1rem;
+  }
+  .monthPreImages-bag {
+    margin-top: 1.5rem;
+    margin-left: -4.75rem;
+  }
+  .monthPreImages-ledder {
+    margin-top: 5.5rem;
+  }
+}
+@media only screen and (min-width: 1680px) {
+  .monthPreImages-monstera {
+    margin-top: -0.5rem;
+  }
+  .monthPreImages-bag {
+    margin-left: -3.5rem;
+  }
+  .monthPreImages-ledder {
+    margin-left: -5.5rem;
+  }
+  .monthPreImages-jar {
+    margin-left: -5.5rem;
+  }
+  .monthPreImages-lines--top {
+    margin-left: -1.5rem;
+  }
+  .monthPreImages-lines--bottom {
+    margin-left: -1.5rem;
+  }
+  .monthPreImages-litleEllipse {
+    margin-left: 1.4rem;
+    margin-top: -1rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .monthPreImages-monstera {
+    margin-left: 5rem;
+  }
+  .monthPreImages-bag {
+    margin-left: -3rem;
+  }
+  .monthPreImages-ledder {
+    margin-left: -5rem;
+    margin-top: 5rem;
+  }
+  .monthPreImages-jar {
+    margin-left: -5rem;
+    margin-top: 8.5rem;
+  }
+  .monthPreImages-lines--top {
+    margin-left: -1.5rem;
+    margin-top: 7rem;
+  }
+  .monthPreImages-lines--bottom {
+    margin-left: -1.5rem;
+  }
+  .monthPreImages-litleEllipse {
+    margin-top: -0.75rem;
+  }
 }
 
-.monthPreImages-jar {
-  position: absolute;
-}
+/* 
 
 .monthPreImages-lines--top {
   position: absolute;
@@ -135,11 +293,4 @@
 
 .monthPreImages-lines--bottom {
   position: absolute;
-}
-
-.monthPreImages-monstera {
-  z-index: 3;
-  position: absolute;
-  margin-left: 304px;
-  margin-top: 19rem;
-}
+} */
