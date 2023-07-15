@@ -37,7 +37,7 @@
         placeholder="Your email adress"
         class="sub-form--input"
       />
-      <button type="submit" class="btn sub-form--btn">
+      <button type="submit" class="btn sub-form--btn" data-modal-open>
         <p class="btnText">SING UP</p>
       </button>
       <p class="sub-policy--text">
@@ -52,5 +52,36 @@
         >
       </p>
     </form>
+  </div>
+
+  <div class="backdrop" is-hidden data-modal>
+    <div class="modal subModal">
+      <div class="subModal-image">
+        <img
+          src="./images/subscribe/modal.png"
+          alt="photo"
+          width="121"
+          height="150"
+        />
+      </div>
+      <div class="subModal-info">
+        <div class="subModal-title">
+          <h1 class="textMainSecond subModal-titleStyle">
+            Thank you for <span class="subModal-title--text">subscribing!</span>
+          </h1>
+        </div>
+        <div class="subModal-line">
+          <img src="./images/common/line.svg" alt="curved line" />
+        </div>
+        <div class="subModal-text">
+          <h2 class="subModal-textStyle">
+            Now you will receive alerts when new news and boxes are released!
+          </h2>
+        </div>
+        <button type="button" class="subModal-close" data-modal-close>
+          <p class="btnText">GOOD</p>
+        </button>
+      </div>
+    </div>
   </div>
 </section>

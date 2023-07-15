@@ -2,6 +2,7 @@
 @import url('./layouts/common.css');
 @import url('./layouts/textStyles.css');
 @import url('./layouts/straightLine.css');
+@import url('./layouts/modal.css');
 
 @import url('./header.css');
 @import url('./main.css');

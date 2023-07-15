@@ -51,6 +51,51 @@
   cursor: pointer;
 }
 
+.subModal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px 0 20px;
+}
+.subModal-image {
+  background-color: #f0f8f6;
+  display: flex;
+  justify-content: center;
+}
+.subModal-title--text {
+  color: #01a3a4;
+  font-family: Advent Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.subModal-line {
+  padding: 19px 0 30px 0;
+}
+.subModal-titleStyle {
+  font-size: 24px;
+}
+.subModal-textStyle {
+  color: #000;
+  text-align: center;
+  font-family: Advent Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.subModal-close {
+  width: 288px;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+  border-color: #01a3a4;
+  background-color: #01a3a4;
+}
 @media only screen and (max-width: 1023px) {
   .sub-imageDesk,
   .sub-form--image {
@@ -59,6 +104,40 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .subModal {
+    display: flex;
+  }
+  .subModal-image {
+    display: flex;
+    align-items: center;
+    width: 250px;
+  }
+  .subModal-image img {
+    width: 214px;
+    height: 351px;
+  }
+  .subModal-info {
+    justify-content: center;
+  }
+  .subModal-line {
+    padding: 20px 0;
+  }
+  .subModal-titleStyle,
+  .subModal-title--text {
+    font-size: 48px;
+  }
+  .subModal-textStyle {
+    font-size: 24px;
+  }
+  .subModal-close {
+    width: 280px;
+    height: 60px;
+    border-radius: 3.125rem;
+    border-color: transparent;
+    background: #01a3a4;
+  }
+  /* ------------modal--------------------- */
+
   .sub-image {
     display: none;
   }

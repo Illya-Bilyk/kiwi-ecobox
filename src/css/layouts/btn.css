@@ -19,3 +19,7 @@
   margin: 0 auto;
   text-decoration: none;
 }
+@media only screen and (min-width: 1024px) {
+  .btnText {
+  font-size: 29px;
+}}

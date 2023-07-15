@@ -24,10 +24,10 @@
 .monthFirstImage {
   margin-right: 0.5rem;
   /* position: absolute; */
-  z-index: 200;
+  z-index: 5;
 }
 .monthSecondImage {
-  z-index: 200;
+  z-index: 5;
   margin-right: 3.125rem;
   /* position: absolute; */
 }
@@ -57,11 +57,11 @@
 @media only screen and (min-width: 768px) {
   .monthEllipse {
     margin: 10.5rem 0 0 12.5rem;
-    z-index: 900;
+    z-index: 10;
   }
   .monthTurEllipse {
     margin: 12.5rem 0 0 14rem;
-    z-index: 900;
+    z-index: 10;
   }
 }
 
@@ -129,7 +129,7 @@
   }
   .btnMonthWrap {
     position: absolute;
-    z-index: 100;
+    z-index: 4;
   }
   .monthPreImages-monstera {
     z-index: 3;
@@ -164,7 +164,7 @@
     position: absolute;
     margin-top: 2.5rem;
     margin-left: -5.5rem;
-    z-index: 300;
+    z-index: 5;
   }
   .monthPreImages-lines--top {
     margin-top: 8rem;
