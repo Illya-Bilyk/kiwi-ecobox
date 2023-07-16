@@ -27,7 +27,7 @@
         <span class="sub--blueText">TO YOUR INBOX!</span>
       </h1>
     </div>
-    <form autocomplete="off" class="sub-form">
+    <form autocomplete="off" class="sub-form" id="sub-form">
       <div class="sub-form--image">
         <img src="./images/monthly/monstera.png" alt="monstera" />
       </div>
@@ -36,6 +36,7 @@
         name="email"
         placeholder="Your email adress"
         class="sub-form--input"
+        required
       />
       <button type="submit" class="btn sub-form--btn" data-modal-open>
         <p class="btnText">SING UP</p>
@@ -54,7 +55,7 @@
     </form>
   </div>
 
-  <div class="backdrop" is-hidden data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal subModal">
       <div class="subModal-image">
         <img

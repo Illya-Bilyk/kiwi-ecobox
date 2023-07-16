@@ -37,6 +37,7 @@
   width: 2.25rem;
   height: 2.25rem;
   margin: 12rem 0 0 14rem;
+  z-index: 10;
 }
 
 .monthTurEllipse {
@@ -44,6 +45,7 @@
   width: 3rem;
   height: 3rem;
   margin: 14rem 0 0 15.8rem;
+  z-index: 10;
 }
 
 .btnMonthWrap {
@@ -57,11 +59,9 @@
 @media only screen and (min-width: 768px) {
   .monthEllipse {
     margin: 10.5rem 0 0 12.5rem;
-    z-index: 10;
   }
   .monthTurEllipse {
     margin: 12.5rem 0 0 14rem;
-    z-index: 10;
   }
 }
 
